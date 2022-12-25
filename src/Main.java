@@ -1,9 +1,3 @@
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-
-import static java.lang.Character.toLowerCase;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -17,9 +11,9 @@ public class Main {
 
         WordsChecker wordsChecker = new WordsChecker(TEXT);
 
-        String word = "dfsdf";
+        String word = "Maxim";
         System.out.println(wordsChecker.hasWord(word));
-        word = "esT";
+        word = "LoReM";
         System.out.println(wordsChecker.hasWord(word));
     }
 
