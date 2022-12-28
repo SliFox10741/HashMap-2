@@ -9,7 +9,7 @@ public class Main {
                 " occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit " +
                 "anim id est laborum.";
 
-        WordsChecker wordsChecker = new WordsChecker(TEXT);
+        WordsChecker wordsChecker = new WordsChecker(TEXT.toLowerCase());
 
         String word = "Maxim";
         System.out.println(wordsChecker.hasWord(word));
